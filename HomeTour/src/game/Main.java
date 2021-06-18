@@ -12,7 +12,7 @@ public class Main {
 		RoomManager room = new RoomManager();
 		room.init();
 		System.out.println("The HomeTour");
-		System.out.println("Please Enter Player Name to Begin");
+		System.out.println("Enter Player Name to Begin");
 
 		Player newPLayer = new Player();
 

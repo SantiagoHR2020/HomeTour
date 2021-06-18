@@ -24,9 +24,9 @@ public class RoomManager {
 
 	public void init() {
 		Room Kitchen = new Room("Kitchen", "The  best room in the home when hungry", "Food is made and eaten here");
-		Room livingroom = new Room("Living Room", "live = relax", "Watch tv here, other rooms bedrrom down, ");
-		Room bedroom = new Room("Bedroom", "Sleep here", "The place were you rechard your batteries");
-		Room bathroom = new Room("Bathroom", "A full bathroom", "A man does hes best thinking here");
+		Room livingroom = new Room("Living Room", "Put your feet up and relax", "Watch tv, play games, eat, and read here");
+		Room bedroom = new Room("Bedroom", "Sleep here", "The place were you catch ZZZZZZZZ");
+		Room bathroom = new Room("Bathroom", "A full bathroom", "A man does his best thinking here");
 
 		// add all rooms to the map
 		allRooms = new Room[4];

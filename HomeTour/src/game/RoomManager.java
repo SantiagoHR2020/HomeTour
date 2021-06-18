@@ -28,14 +28,14 @@ public class RoomManager {
 		Room bedroom = new Room("Bedroom", "Sleep here", "The place were you catch ZZZZZZZZ");
 		Room bathroom = new Room("Bathroom", "A full bathroom", "A man does his best thinking here");
 
-		// add all rooms to the map
+		
 		allRooms = new Room[4];
 		allRooms[0] = bedroom;
 		allRooms[1] = livingroom;
 		allRooms[2] = Kitchen;
 		allRooms[3] = bathroom;
 
-		// set exits for rooms
+		
 		bedroom.setUpExit(livingroom);
 		bedroom.setRightExit(bathroom);
 		livingroom.setDownExit(bedroom);
